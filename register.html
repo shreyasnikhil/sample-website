@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Booking Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="external3.css">
+</head>
+
+<body>
+    <div class="main-w3layouts wrapper">
+        <h1>Booking Form</h1>
+        <div class="main-agileinfo">
+            <div class="agileits-top">
+                <form action="http://localhost/contact.php" method="post">
+                    <input type="text" name="Username" id="Username" placeholder="Username" required="">
+                    <input type="text" name="Email" id="Email" placeholder="Email" required="">
+                    <input type="text" name="contact" id="contact" placeholder="Contact No." required="">
+                    <input type="date" name="BookedOn" id="BookedOn" required="">
+                    <select name="purpose" id="purpose" placeholder="Purpose Of Booking">
+                        <option value="wedding">Wedding</option>
+                        <option value="birthday">Birthday</option>
+                        <option value="reception">Reception</option>
+                    </select>
+                    <div class="wthree-text">
+                        <label class="anim">
+                            <input type="checkbox" class="checkbox" required="">
+                            <span>I Agree To The Terms & Conditions</span>
+                        </label>
+                        <div class="clear"> </div>
+                    </div>
+                    <input type="submit" value="BOOK">
+                </form>
+
+            </div>
+        </div>
+</body>
+
+</html>
